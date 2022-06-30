@@ -23,5 +23,12 @@ output:
     smart: true
     dev: svg
 ---
+```{r}
+library(raster)
+library(rgdal)
+library(ggplot2)
+```
 
-
+```{r}
+matnya <- raster::raster("C:\\Download\\light\\dd.tif")
+```
